@@ -18,7 +18,7 @@ jobs:
       
     - name: Build K210-MaixBit
       run: |
-        cp .ci/v831-k210_maixbit.config .config
+        cp .ci/k210_maixbit.config .config
         make
         make sdk
       
